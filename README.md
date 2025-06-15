@@ -8,6 +8,7 @@ Deep Learning for Biostatistics - UPC
 👥 Authors
 
 Rocío Ávalos - Universitat Politècnica de Catalunya (UPC)
+
 Ainhoa Fraile - Universitat Politècnica de Catalunya (UPC)
 
 Escola d'Enginyeria de Barcelona Est (EEBE)
