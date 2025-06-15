@@ -90,48 +90,56 @@ Medical Validation: Clinical relevance of learned features
 
 
 🚀 Getting Started
+
 Prerequisites
-bash# Core ML libraries
-torch>=2.0.0
-torchvision
-timm
-fastai
+
+    bash# Core ML libraries
+    torch>=2.0.0
+    torchvision
+    timm
+    fastai
 
 # Data processing
-pandas
-numpy
-scikit-learn
-opencv-python
+
+    pandas
+    numpy
+    scikit-learn
+    opencv-python
 
 # Visualization
-matplotlib
-seaborn
-plotly
+    matplotlib
+    seaborn
+    plotly
 
 # Medical imaging
-pydicom
-nibabel
+    pydicom
+    nibabel
+
 🔧 Installation & Setup
 
 Clone the repository:
 
-bashgit clone https://github.com/rociavl/Multi-Label-Classification-of-Pathologies-in-Chest-X-Rays
-cd chest-xray-classification
+    bashgit clone https://github.com/rociavl/Multi-Label-Classification-of-Pathologies-in-Chest-X-Rays
+    
+    cd chest-xray-classification
 
 Open in Google Colab:
 
-python# Mount Google Drive for data access
-from google.colab import drive
-drive.mount('/content/drive')
+    python# Mount Google Drive for data access
+    from google.colab import drive
+    drive.mount('/content/drive')
 
 # Install required packages
-!pip install timm fastai
+
+    !pip install timm fastai
 
 Data Setup:
 
 python# Download NIH ChestX-ray14 dataset
 # Place in /content/drive/MyDrive/chest_xray_data/
+
 📓 Running the Analysis
+
 The project is organized in a comprehensive Jupyter notebook with clear sections:
 
 Data Preprocessing & EDA
@@ -142,27 +150,29 @@ Results Visualization
 
 
 📁 Project Structure
-chest-xray-classification/
-├── notebooks/
-│   ├── Clasificacion_Multi-Etiqueta_Chest_Xray.ipynb
-│   └── data_exploration.ipynb
-├── src/
-│   ├── models/
-│   │   ├── simple_cnn.py
-│   │   └── transfer_learning.py
-│   ├── preprocessing/
-│   │   └── data_utils.py
-│   └── evaluation/
-│       └── metrics.py
-├── data/
-│   └── processed/
-├── results/
-│   ├── models/
-│   ├── figures/
-│   └── reports/
-└── README.md
+
+    chest-xray-classification/
+    ├── notebooks/
+    │   ├── Clasificacion_Multi-Etiqueta_Chest_Xray.ipynb
+    │   └── data_exploration.ipynb
+    ├── src/
+    │   ├── models/
+    │   │   ├── simple_cnn.py
+    │   │   └── transfer_learning.py
+    │   ├── preprocessing/
+    │   │   └── data_utils.py
+    │   └── evaluation/
+    │       └── metrics.py
+    ├── data/
+    │   └── processed/
+    ├── results/
+    │   ├── models/
+    │   ├── figures/
+    │   └── reports/
+    └── README.md
 
 🔬 Key Findings
+
 Model Performance
 
 Transfer Learning Models: Achieved superior performance with pre-trained ImageNet weights
@@ -177,6 +187,7 @@ Pathology Grouping: Successful identification of co-occurring conditions
 
 
 📚 Medical Relevance
+
 This project addresses a critical challenge in automated medical diagnosis, providing:
 
 Radiologist Support: AI-assisted interpretation of chest X-rays
@@ -187,6 +198,7 @@ Clinical Validation: Medically meaningful feature representations
 
 
 🤝 Contributing
+
 We welcome contributions to improve the project:
 
 Fork the repository
