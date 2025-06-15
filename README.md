@@ -23,19 +23,19 @@ Primary Goal: Develop and compare CNN architectures for multi-label classificati
 
 Specific Objectives:
 
-Select and preprocess a subset of the NIH ChestX-ray14 dataset (patient-wise split, 3-5 pathologies)
+- Select and preprocess a subset of the NIH ChestX-ray14 dataset (patient-wise split, 3-5 pathologies)
 
-Implement and train at least two deep learning architectures for multi-label classification
+- Implement and train at least two deep learning architectures for multi-label classification
 
-Apply transfer learning techniques
+- Apply transfer learning techniques
 
-Extract features from intermediate layers of trained models
+- Extract features from intermediate layers of trained models
 
-Apply PCA for visualization and K-Means for clustering on these features
+- Apply PCA for visualization and K-Means for clustering on these features
 
-Evaluate classification model performance
+- Evaluate classification model performance
 
-Compare architectures and analyze unsupervised learning results in the context of pathologies
+- Compare architectures and analyze unsupervised learning results in the context of pathologies
 
 
 🔬 Methodology
@@ -88,36 +88,37 @@ Techniques: Learning rate scheduling, early stopping, overfitting prevention
 
 🔍 Unsupervised Analysis
 
-Feature Extraction: Activations from deep intermediate layers
+- Feature Extraction: Activations from deep intermediate layers
 
-Dimensionality Reduction: PCA for 2D/3D visualization
+- Dimensionality Reduction: PCA for 2D/3D visualization
 
-Clustering: K-Means analysis on extracted features
+- Clustering: K-Means analysis on extracted features
 
-Evaluation: Cluster correspondence to pathology patterns
+- Evaluation: Cluster correspondence to pathology patterns
 
 
 📊 Results & Evaluation
 
 Performance Metrics
 
-Multi-label Metrics: Macro and Micro averaged
+- Multi-label Metrics: Macro and Micro averaged
 
 AUC-ROC, Accuracy, Precision, Recall, F1-Score
+
 ![image](https://github.com/user-attachments/assets/4dd770c4-5279-4579-ad11-d69b7ab9426f)
 
 
 Visualizations: Confusion matrices, ROC curves per class
 
-Medical Interpretation: Per-pathology diagnostic accuracy
+- Medical Interpretation: Per-pathology diagnostic accuracy
 
 Model Interpretability
 
-Feature Visualization: PCA projections colored by pathologies
+- Feature Visualization: PCA projections colored by pathologies
 
-Clustering Analysis: Pathology pattern discovery
+- Clustering Analysis: Pathology pattern discovery
 
-Medical Validation: Clinical relevance of learned features
+- Medical Validation: Clinical relevance of learned features
 
 
 🚀 Getting Started
@@ -206,25 +207,32 @@ Results Visualization
 
 Model Performance
 
-Transfer Learning Models: Achieved superior performance with pre-trained ImageNet weights
-Simple CNN: Competitive results with faster training time
-Multi-label Accuracy: High precision in pathology detection across multiple conditions
+- Transfer Learning Models: Achieved superior performance with pre-trained ImageNet weights
+- 
+- Simple CNN: Competitive results with faster training time
+- 
+- Multi-label Accuracy: High precision in pathology detection across multiple conditions
 
 Unsupervised Insights
 
-PCA Visualization: Clear clustering patterns corresponding to different pathologies
-Feature Learning: Models learned clinically relevant anatomical features
-Pathology Grouping: Successful identification of co-occurring conditions
+- PCA Visualization: Clear clustering patterns corresponding to different pathologies
+
+- Feature Learning: Models learned clinically relevant anatomical features
+
+- Pathology Grouping: Successful identification of co-occurring conditions
 
 
 📚 Medical Relevance
 
 This project addresses a critical challenge in automated medical diagnosis, providing:
 
-Radiologist Support: AI-assisted interpretation of chest X-rays
-Multi-pathology Detection: Simultaneous screening for multiple conditions
-Feature Interpretability: Understanding what the model learns about pathologies
-Clinical Validation: Medically meaningful feature representations
+- Radiologist Support: AI-assisted interpretation of chest X-rays
+
+- Multi-pathology Detection: Simultaneous screening for multiple conditions
+
+- Feature Interpretability: Understanding what the model learns about pathologies
+
+- Clinical Validation: Medically meaningful feature representations
 
 
 
@@ -233,11 +241,13 @@ Clinical Validation: Medically meaningful feature representations
 We welcome contributions to improve the project:
 
 Fork the repository
-Create a feature branch (git checkout -b feature/improvement)
-Commit changes (git commit -am 'Add new feature')
-Push to branch (git push origin feature/improvement)
-Create a Pull Request
+
+    Create a feature branch (git checkout -b feature/improvement)
+    Commit changes (git commit -am 'Add new feature')
+    Push to branch (git push origin feature/improvement)
+    Create a Pull Request
 
 
 📄 License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
